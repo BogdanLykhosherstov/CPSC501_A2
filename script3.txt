@@ -1,0 +1,12 @@
+======================================================
+Filename: script3.txt
+Running Test: ClassB
+Recursive: true
+Name of class: ClassB
+Immediate Super Class: ClassC
+Interfaces: [interface java.lang.Runnable]
+Constructors: 
+ - Name: ClassB
+ - - Parameter Types: []
+ - - Modifiers: public
+======================================================

@@ -1,0 +1,15 @@
+======================================================
+Filename: script1.txt
+Running Test: ClassA
+Recursive: true
+Name of class: ClassA
+Immediate Super Class: java.lang.Object
+Interfaces: [interface java.io.Serializable, interface java.lang.Runnable]
+Constructors: 
+ - Name: ClassA
+ - - Parameter Types: []
+ - - Modifiers: public
+ - Name: ClassA
+ - - Parameter Types: [int]
+ - - Modifiers: public
+======================================================
