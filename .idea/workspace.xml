@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ee8392-105b-438e-bde3-10853349db0d" name="Default Changelist" comment="Finished 1-4 (of 6) requirements of A2. Added unit test for inspector to make sure it works.">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/A2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script8.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inspector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inspector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -58,6 +55,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="git push origin master" />
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -70,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests.Inspector_Test">
+  <component name="RunManager" selected="JUnit.Tests">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="A2" />
@@ -87,31 +89,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.GetClassName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.Get_ConstructorInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="GetClassName" />
+      <option name="METHOD_NAME" value="Get_ConstructorInfo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.Inspector_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.Get_Interface" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="Inspector_Test" />
+      <option name="METHOD_NAME" value="Get_Interface" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.PrintClassName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.Get_SuperClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="PrintClassName" />
+      <option name="METHOD_NAME" value="Get_SuperClass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests.Inspector_Test" />
-        <item itemvalue="Application.Driver" />
-        <item itemvalue="JUnit.Tests.GetClassName" />
-        <item itemvalue="JUnit.Tests.PrintClassName" />
         <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.Tests.Get_ConstructorInfo" />
+        <item itemvalue="JUnit.Tests.Get_Interface" />
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="JUnit.Tests.Get_SuperClass" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +140,14 @@
       <option name="presentableId" value="Default" />
       <updated>1571522914074</updated>
     </task>
+    <task id="LOCAL-00001" summary="Finished 1-4 (of 6) requirements of A2. Added unit test for inspector to make sure it works.">
+      <created>1571870347393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571870347393</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

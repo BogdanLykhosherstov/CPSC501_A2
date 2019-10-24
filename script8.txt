@@ -2,53 +2,67 @@
 Filename: script8.txt
 Running Test: Test String
 Recursive: true
-Name of class: java.lang.String
-Immediate Super Class: java.lang.Object
-Interfaces: [interface java.io.Serializable, interface java.lang.Comparable, interface java.lang.CharSequence]
+Name: java.lang.String
+Super Class: java.lang.Object
+Interface: java.io.Serializable
+	Name: java.io.Serializable
+	Super Class: None
+	Interface: None
+	Constructors: None
+Interface: java.lang.Comparable
+	Name: java.lang.Comparable
+	Super Class: None
+	Interface: None
+	Constructors: None
+Interface: java.lang.CharSequence
+	Name: java.lang.CharSequence
+	Super Class: None
+	Interface: None
+	Constructors: None
 Constructors: 
- - Name: java.lang.String
- - - Parameter Types: [class [B, int, int]
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: [class [B, class java.nio.charset.Charset]
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: [class [B, class java.lang.String]
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: [class [B, int, int, class java.nio.charset.Charset]
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: [class [B, int, int, class java.lang.String]
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: [class java.lang.StringBuilder]
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: [class java.lang.StringBuffer]
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: [class [B]
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: [class [I, int, int]
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: []
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: [class [C]
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: [class java.lang.String]
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: [class [C, int, int]
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: [class [B, int]
- - - Modifiers: public
- - Name: java.lang.String
- - - Parameter Types: [class [B, int, int, int]
- - - Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class [B, int, int]
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class [B, class java.nio.charset.Charset]
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class [B, class java.lang.String]
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class [B, int, int, class java.nio.charset.Charset]
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class [B, int, int, class java.lang.String]
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class java.lang.StringBuilder]
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class java.lang.StringBuffer]
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class [B]
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class [I, int, int]
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: []
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class [C]
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class java.lang.String]
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class [C, int, int]
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class [B, int]
+ -- Modifiers: public
+ * Name: java.lang.String
+ -- Parameter Types: [class [B, int, int, int]
+ -- Modifiers: public
 ======================================================

@@ -2,14 +2,14 @@
 Filename: script5.txt
 Running Test: ClassD
 Recursive: true
-Name of class: ClassD
-Immediate Super Class: java.lang.Object
-Interfaces: []
+Name: ClassD
+Super Class: java.lang.Object
+Interface: None
 Constructors: 
- - Name: ClassD
- - - Parameter Types: []
- - - Modifiers: public
- - Name: ClassD
- - - Parameter Types: [int]
- - - Modifiers: public
+ * Name: ClassD
+ -- Parameter Types: []
+ -- Modifiers: public
+ * Name: ClassD
+ -- Parameter Types: [int]
+ -- Modifiers: public
 ======================================================

@@ -2,11 +2,43 @@
 Filename: script3.txt
 Running Test: ClassB
 Recursive: true
-Name of class: ClassB
-Immediate Super Class: ClassC
-Interfaces: [interface java.lang.Runnable]
+Name: ClassB
+Super Class: ClassC
+	Name: ClassC
+	Super Class: ClassD
+		Name: ClassD
+		Super Class: java.lang.Object
+		Interface: None
+		Constructors: 
+		 * Name: ClassD
+		 -- Parameter Types: []
+		 -- Modifiers: public
+		 * Name: ClassD
+		 -- Parameter Types: [int]
+		 -- Modifiers: public
+	Interface: InterfaceA
+		Name: InterfaceA
+		Super Class: None
+		Interface: InterfaceB
+			Name: InterfaceB
+			Super Class: None
+			Interface: None
+			Constructors: None
+		Constructors: None
+	Constructors: 
+	 * Name: ClassC
+	 -- Parameter Types: []
+	 -- Modifiers: public
+	 * Name: ClassC
+	 -- Parameter Types: [int, int]
+	 -- Modifiers: public
+Interface: java.lang.Runnable
+	Name: java.lang.Runnable
+	Super Class: None
+	Interface: None
+	Constructors: None
 Constructors: 
- - Name: ClassB
- - - Parameter Types: []
- - - Modifiers: public
+ * Name: ClassB
+ -- Parameter Types: []
+ -- Modifiers: public
 ======================================================
