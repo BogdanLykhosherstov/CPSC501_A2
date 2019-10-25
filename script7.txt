@@ -1,18 +1,92 @@
 ======================================================
 Filename: script7.txt
-Running Test: [[LClassB;@610455d6
+Running Test: [[LClassB;@66d3c617
 Recursive: true
 Name: [[LClassB;
 Super Class: java.lang.Object
+	Name: java.lang.Object
+	Interface: None
+	Constructors: 
+	 Name: java.lang.Object
+		Parameter Types: []
+		Modifiers: public
+	Methods: 
+	 Name: finalize
+		Parameter Types: []
+		Modifiers: protected
+		Return Type: void
+		Exceptions: [class java.lang.Throwable]
+	 Name: wait
+		Parameter Types: [long, int]
+		Modifiers: public final
+		Return Type: void
+		Exceptions: [class java.lang.InterruptedException]
+	 Name: wait
+		Parameter Types: [long]
+		Modifiers: public final native
+		Return Type: void
+		Exceptions: [class java.lang.InterruptedException]
+	 Name: wait
+		Parameter Types: []
+		Modifiers: public final
+		Return Type: void
+		Exceptions: [class java.lang.InterruptedException]
+	 Name: equals
+		Parameter Types: [class java.lang.Object]
+		Modifiers: public
+		Return Type: boolean
+		Exceptions: []
+	 Name: toString
+		Parameter Types: []
+		Modifiers: public
+		Return Type: class java.lang.String
+		Exceptions: []
+	 Name: hashCode
+		Parameter Types: []
+		Modifiers: public native
+		Return Type: int
+		Exceptions: []
+	 Name: getClass
+		Parameter Types: []
+		Modifiers: public final native
+		Return Type: class java.lang.Class
+		Exceptions: []
+	 Name: clone
+		Parameter Types: []
+		Modifiers: protected native
+		Return Type: class java.lang.Object
+		Exceptions: [class java.lang.CloneNotSupportedException]
+	 Name: registerNatives
+		Parameter Types: []
+		Modifiers: private static native
+		Return Type: void
+		Exceptions: []
+	 Name: notify
+		Parameter Types: []
+		Modifiers: public final native
+		Return Type: void
+		Exceptions: []
+	 Name: notifyAll
+		Parameter Types: []
+		Modifiers: public final native
+		Return Type: void
+		Exceptions: []
+	Fields: 
 Interface: java.lang.Cloneable
 	Name: java.lang.Cloneable
 	Super Class: None
 	Interface: None
 	Constructors: None
+	Methods: None
+	Fields: None
 Interface: java.io.Serializable
 	Name: java.io.Serializable
 	Super Class: None
 	Interface: None
 	Constructors: None
+	Methods: None
+	Fields: None
 Constructors: 
+Methods: 
+Fields: 
 ======================================================

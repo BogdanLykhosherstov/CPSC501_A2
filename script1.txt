@@ -4,21 +4,132 @@ Running Test: ClassA
 Recursive: true
 Name: ClassA
 Super Class: java.lang.Object
+	Name: java.lang.Object
+	Interface: None
+	Constructors: 
+	 Name: java.lang.Object
+		Parameter Types: []
+		Modifiers: public
+	Methods: 
+	 Name: finalize
+		Parameter Types: []
+		Modifiers: protected
+		Return Type: void
+		Exceptions: [class java.lang.Throwable]
+	 Name: wait
+		Parameter Types: [long, int]
+		Modifiers: public final
+		Return Type: void
+		Exceptions: [class java.lang.InterruptedException]
+	 Name: wait
+		Parameter Types: [long]
+		Modifiers: public final native
+		Return Type: void
+		Exceptions: [class java.lang.InterruptedException]
+	 Name: wait
+		Parameter Types: []
+		Modifiers: public final
+		Return Type: void
+		Exceptions: [class java.lang.InterruptedException]
+	 Name: equals
+		Parameter Types: [class java.lang.Object]
+		Modifiers: public
+		Return Type: boolean
+		Exceptions: []
+	 Name: toString
+		Parameter Types: []
+		Modifiers: public
+		Return Type: class java.lang.String
+		Exceptions: []
+	 Name: hashCode
+		Parameter Types: []
+		Modifiers: public native
+		Return Type: int
+		Exceptions: []
+	 Name: getClass
+		Parameter Types: []
+		Modifiers: public final native
+		Return Type: class java.lang.Class
+		Exceptions: []
+	 Name: clone
+		Parameter Types: []
+		Modifiers: protected native
+		Return Type: class java.lang.Object
+		Exceptions: [class java.lang.CloneNotSupportedException]
+	 Name: registerNatives
+		Parameter Types: []
+		Modifiers: private static native
+		Return Type: void
+		Exceptions: []
+	 Name: notify
+		Parameter Types: []
+		Modifiers: public final native
+		Return Type: void
+		Exceptions: []
+	 Name: notifyAll
+		Parameter Types: []
+		Modifiers: public final native
+		Return Type: void
+		Exceptions: []
+	Fields: 
 Interface: java.io.Serializable
 	Name: java.io.Serializable
 	Super Class: None
 	Interface: None
 	Constructors: None
+	Methods: None
+	Fields: None
 Interface: java.lang.Runnable
 	Name: java.lang.Runnable
 	Super Class: None
 	Interface: None
 	Constructors: None
+	Methods: None
+	Fields: None
 Constructors: 
- * Name: ClassA
- -- Parameter Types: []
- -- Modifiers: public
- * Name: ClassA
- -- Parameter Types: [int]
- -- Modifiers: public
+ Name: ClassA
+	Parameter Types: []
+	Modifiers: public
+ Name: ClassA
+	Parameter Types: [int]
+	Modifiers: public
+Methods: 
+ Name: run
+	Parameter Types: []
+	Modifiers: public
+	Return Type: void
+	Exceptions: []
+ Name: toString
+	Parameter Types: []
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: setVal
+	Parameter Types: [int]
+	Modifiers: public
+	Return Type: void
+	Exceptions: [class java.lang.Exception]
+ Name: printSomething
+	Parameter Types: []
+	Modifiers: private
+	Return Type: void
+	Exceptions: []
+ Name: getVal
+	Parameter Types: []
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+Fields: 
+ Name: val
+	Type: int
+	Modifiers: private
+	Value: 3
+ Name: val2
+	Type: double
+	Modifiers: private
+	Value: 0.2
+ Name: val3
+	Type: boolean
+	Modifiers: private
+	Value: true
 ======================================================

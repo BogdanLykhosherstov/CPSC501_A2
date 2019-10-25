@@ -48,8 +48,8 @@ public class Inspector {
         }
 
     }
+
     // get fields info
-    //REFACTOR: pull out if recurse stuff out of this method into its own, same with inspect array
     public void getFieldsInfo(Class c, Object obj, boolean recursive, int depth){
         //interfaces cannot be instantiated
         if(c.isInterface()){
@@ -81,64 +81,57 @@ public class Inspector {
                 }
                 //2. if array - print reference (pull up into arrayInspection later)
                 else if(field.getType().isArray()){
-                    if(recursive){
-                        //inspect each object of the array
-                        Class componentType  = value.getClass().getComponentType();
-                        properPrint("Array Type: "+componentType,depth+1);
-                        int length = Array.getLength(value);
-                        properPrint("Array Length: "+length,depth+1);
-
-                        //arrays could contain primitives, other arrays, or objects
-                        for(int i=0;i<length;i++){
-                            Object arrayItem = Array.get(value,i);
-                            if(arrayItem==null){
-                                properPrint("Array Value: Null",depth+1);
-                            }
-                            //1. primitive
-                            if(componentType.isPrimitive()){
-                                //pull up into method later: referenceInspection
-                               properPrint("Array Value: "+arrayItem,depth+1);
-                            }
-                            //2. array (print value for now)
-                            if(componentType.isArray()){
-                                properPrint("Array Value: "+arrayItem,depth+1);
-                            }
-                            //3. object
-                            else{
-                                //pull up into method later: referenceInspection
-                                if(recursive){
-                                    inspectClass(value.getClass(),value,recursive,depth+1);
-                                }
-                                else{
-                                    properPrint("Value: "+value.getClass().getName()+"@"+value.getClass().hashCode(),depth+1);
-                                }
-                            }
-                        }
-
-                    }
-                    //recursive off - just print the value of array
-                    else{
-                        properPrint("Value: "+value.getClass().getName()+"@"+value.getClass().hashCode(),depth+1);
-                    }
+                    arrayInspect(recursive, depth, value);
                 }
                 //3. else its an object, print reference value
-                else{
-                    if(recursive){
-                        inspectClass(value.getClass(),value,recursive,depth+1);
-                    }
-                    else{
-                        properPrint("Value: "+value.getClass().getName()+"@"+value.getClass().hashCode(),depth+1);
-                    }
+                else {
+                    referenceInspect(recursive, depth, value);
                 }
-                //
-
-
             }
 
         }
 
     }
 
+    public void arrayInspect(boolean recursive, int depth, Object value) {
+        if(recursive){
+            //inspect each object of the array
+            Class componentType  = value.getClass().getComponentType();
+            properPrint("Array Type: "+componentType,depth+1);
+            int length = Array.getLength(value);
+            properPrint("Array Length: "+length,depth+1);
+            //arrays could contain primitives, other arrays, or objects
+            for(int i=0;i<length;i++){
+                Object arrayItem = Array.get(value,i);
+                if(arrayItem==null){
+                    properPrint("Array Value: Null",depth+1);
+                }
+                //1. primitive
+                if(componentType.isPrimitive()){
+                   properPrint("Array Value: "+arrayItem,depth+1);
+                }
+                //2. array
+                if(componentType.isArray()){
+                    arrayInspect(recursive, depth, value);
+                }
+                //3. object
+                else{
+                    referenceInspect(recursive, depth, value);
+                }
+            }
+        }
+        //recursive off - just print the value of array
+        else{
+            properPrint("Value: "+value.getClass().getName()+"@"+value.getClass().hashCode(),depth+1);
+        }
+    }
+    public void referenceInspect(boolean recursive, int depth, Object value) {
+        if (recursive) {
+            inspectClass(value.getClass(), value, recursive, depth + 1);
+        } else {
+            properPrint("Value: " + value.getClass().getName() + "@" + value.getClass().hashCode(), depth + 1);
+        }
+    }
 
     //returns current class name
     public void getClassName(Class c, int depth){
@@ -174,11 +167,9 @@ public class Inspector {
                 properPrint("Modifiers: "+ Modifier.toString(con.getModifiers()),depth+1);
             }
         }
-
     }
     //get interfaces info
     public void getInterfaceInfo(Class c, Object obj, boolean recursive, int depth){
-
         Class[] interfaceList = c.getInterfaces();
         if(interfaceList.length == 0){
             properPrint("Interface: None",depth);
@@ -189,9 +180,5 @@ public class Inspector {
                 inspectClass(interFace,obj,recursive,depth+1);
             }
         }
-
-
     }
-
-
 }

@@ -4,65 +4,1621 @@ Running Test: Test String
 Recursive: true
 Name: java.lang.String
 Super Class: java.lang.Object
+	Name: java.lang.Object
+	Interface: None
+	Constructors: 
+	 Name: java.lang.Object
+		Parameter Types: []
+		Modifiers: public
+	Methods: 
+	 Name: finalize
+		Parameter Types: []
+		Modifiers: protected
+		Return Type: void
+		Exceptions: [class java.lang.Throwable]
+	 Name: wait
+		Parameter Types: [long, int]
+		Modifiers: public final
+		Return Type: void
+		Exceptions: [class java.lang.InterruptedException]
+	 Name: wait
+		Parameter Types: [long]
+		Modifiers: public final native
+		Return Type: void
+		Exceptions: [class java.lang.InterruptedException]
+	 Name: wait
+		Parameter Types: []
+		Modifiers: public final
+		Return Type: void
+		Exceptions: [class java.lang.InterruptedException]
+	 Name: equals
+		Parameter Types: [class java.lang.Object]
+		Modifiers: public
+		Return Type: boolean
+		Exceptions: []
+	 Name: toString
+		Parameter Types: []
+		Modifiers: public
+		Return Type: class java.lang.String
+		Exceptions: []
+	 Name: hashCode
+		Parameter Types: []
+		Modifiers: public native
+		Return Type: int
+		Exceptions: []
+	 Name: getClass
+		Parameter Types: []
+		Modifiers: public final native
+		Return Type: class java.lang.Class
+		Exceptions: []
+	 Name: clone
+		Parameter Types: []
+		Modifiers: protected native
+		Return Type: class java.lang.Object
+		Exceptions: [class java.lang.CloneNotSupportedException]
+	 Name: registerNatives
+		Parameter Types: []
+		Modifiers: private static native
+		Return Type: void
+		Exceptions: []
+	 Name: notify
+		Parameter Types: []
+		Modifiers: public final native
+		Return Type: void
+		Exceptions: []
+	 Name: notifyAll
+		Parameter Types: []
+		Modifiers: public final native
+		Return Type: void
+		Exceptions: []
+	Fields: 
 Interface: java.io.Serializable
 	Name: java.io.Serializable
 	Super Class: None
 	Interface: None
 	Constructors: None
+	Methods: None
+	Fields: None
 Interface: java.lang.Comparable
 	Name: java.lang.Comparable
 	Super Class: None
 	Interface: None
 	Constructors: None
+	Methods: None
+	Fields: None
 Interface: java.lang.CharSequence
 	Name: java.lang.CharSequence
 	Super Class: None
 	Interface: None
 	Constructors: None
+	Methods: None
+	Fields: None
 Constructors: 
- * Name: java.lang.String
- -- Parameter Types: [class [B, int, int]
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: [class [B, class java.nio.charset.Charset]
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: [class [B, class java.lang.String]
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: [class [B, int, int, class java.nio.charset.Charset]
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: [class [B, int, int, class java.lang.String]
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: [class java.lang.StringBuilder]
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: [class java.lang.StringBuffer]
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: [class [B]
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: [class [I, int, int]
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: []
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: [class [C]
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: [class java.lang.String]
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: [class [C, int, int]
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: [class [B, int]
- -- Modifiers: public
- * Name: java.lang.String
- -- Parameter Types: [class [B, int, int, int]
- -- Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class [B, int, int]
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class [B, class java.nio.charset.Charset]
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class [B, class java.lang.String]
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class [B, int, int, class java.nio.charset.Charset]
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class [B, int, int, class java.lang.String]
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class java.lang.StringBuilder]
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class java.lang.StringBuffer]
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class [B]
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class [I, int, int]
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: []
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class [C]
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class java.lang.String]
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class [C, int, int]
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class [B, int]
+	Modifiers: public
+ Name: java.lang.String
+	Parameter Types: [class [B, int, int, int]
+	Modifiers: public
+Methods: 
+ Name: equals
+	Parameter Types: [class java.lang.Object]
+	Modifiers: public
+	Return Type: boolean
+	Exceptions: []
+ Name: toString
+	Parameter Types: []
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: hashCode
+	Parameter Types: []
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: compareTo
+	Parameter Types: [class java.lang.Object]
+	Modifiers: public volatile
+	Return Type: int
+	Exceptions: []
+ Name: compareTo
+	Parameter Types: [class java.lang.String]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: indexOf
+	Parameter Types: [class java.lang.String, int]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: indexOf
+	Parameter Types: [class [C, int, int, class java.lang.String, int]
+	Modifiers: static
+	Return Type: int
+	Exceptions: []
+ Name: indexOf
+	Parameter Types: [class [C, int, int, class [C, int, int, int]
+	Modifiers: static
+	Return Type: int
+	Exceptions: []
+ Name: indexOf
+	Parameter Types: [int]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: indexOf
+	Parameter Types: [class java.lang.String]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: indexOf
+	Parameter Types: [int, int]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: valueOf
+	Parameter Types: [char]
+	Modifiers: public static
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: valueOf
+	Parameter Types: [class java.lang.Object]
+	Modifiers: public static
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: valueOf
+	Parameter Types: [boolean]
+	Modifiers: public static
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: valueOf
+	Parameter Types: [class [C, int, int]
+	Modifiers: public static
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: valueOf
+	Parameter Types: [class [C]
+	Modifiers: public static
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: valueOf
+	Parameter Types: [double]
+	Modifiers: public static
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: valueOf
+	Parameter Types: [float]
+	Modifiers: public static
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: valueOf
+	Parameter Types: [long]
+	Modifiers: public static
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: valueOf
+	Parameter Types: [int]
+	Modifiers: public static
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: checkBounds
+	Parameter Types: [class [B, int, int]
+	Modifiers: private static
+	Return Type: void
+	Exceptions: []
+ Name: length
+	Parameter Types: []
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: isEmpty
+	Parameter Types: []
+	Modifiers: public
+	Return Type: boolean
+	Exceptions: []
+ Name: charAt
+	Parameter Types: [int]
+	Modifiers: public
+	Return Type: char
+	Exceptions: []
+ Name: codePointAt
+	Parameter Types: [int]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: codePointBefore
+	Parameter Types: [int]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: codePointCount
+	Parameter Types: [int, int]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: offsetByCodePoints
+	Parameter Types: [int, int]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: getChars
+	Parameter Types: [int, int, class [C, int]
+	Modifiers: public
+	Return Type: void
+	Exceptions: []
+ Name: getChars
+	Parameter Types: [class [C, int]
+	Modifiers: 
+	Return Type: void
+	Exceptions: []
+ Name: getBytes
+	Parameter Types: []
+	Modifiers: public
+	Return Type: class [B
+	Exceptions: []
+ Name: getBytes
+	Parameter Types: [class java.lang.String]
+	Modifiers: public
+	Return Type: class [B
+	Exceptions: [class java.io.UnsupportedEncodingException]
+ Name: getBytes
+	Parameter Types: [int, int, class [B, int]
+	Modifiers: public
+	Return Type: void
+	Exceptions: []
+ Name: getBytes
+	Parameter Types: [class java.nio.charset.Charset]
+	Modifiers: public
+	Return Type: class [B
+	Exceptions: []
+ Name: contentEquals
+	Parameter Types: [class java.lang.StringBuffer]
+	Modifiers: public
+	Return Type: boolean
+	Exceptions: []
+ Name: contentEquals
+	Parameter Types: [interface java.lang.CharSequence]
+	Modifiers: public
+	Return Type: boolean
+	Exceptions: []
+ Name: nonSyncContentEquals
+	Parameter Types: [class java.lang.AbstractStringBuilder]
+	Modifiers: private
+	Return Type: boolean
+	Exceptions: []
+ Name: equalsIgnoreCase
+	Parameter Types: [class java.lang.String]
+	Modifiers: public
+	Return Type: boolean
+	Exceptions: []
+ Name: compareToIgnoreCase
+	Parameter Types: [class java.lang.String]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: regionMatches
+	Parameter Types: [int, class java.lang.String, int, int]
+	Modifiers: public
+	Return Type: boolean
+	Exceptions: []
+ Name: regionMatches
+	Parameter Types: [boolean, int, class java.lang.String, int, int]
+	Modifiers: public
+	Return Type: boolean
+	Exceptions: []
+ Name: startsWith
+	Parameter Types: [class java.lang.String]
+	Modifiers: public
+	Return Type: boolean
+	Exceptions: []
+ Name: startsWith
+	Parameter Types: [class java.lang.String, int]
+	Modifiers: public
+	Return Type: boolean
+	Exceptions: []
+ Name: endsWith
+	Parameter Types: [class java.lang.String]
+	Modifiers: public
+	Return Type: boolean
+	Exceptions: []
+ Name: indexOfSupplementary
+	Parameter Types: [int, int]
+	Modifiers: private
+	Return Type: int
+	Exceptions: []
+ Name: lastIndexOf
+	Parameter Types: [int, int]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: lastIndexOf
+	Parameter Types: [class [C, int, int, class [C, int, int, int]
+	Modifiers: static
+	Return Type: int
+	Exceptions: []
+ Name: lastIndexOf
+	Parameter Types: [class [C, int, int, class java.lang.String, int]
+	Modifiers: static
+	Return Type: int
+	Exceptions: []
+ Name: lastIndexOf
+	Parameter Types: [class java.lang.String, int]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: lastIndexOf
+	Parameter Types: [int]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: lastIndexOf
+	Parameter Types: [class java.lang.String]
+	Modifiers: public
+	Return Type: int
+	Exceptions: []
+ Name: lastIndexOfSupplementary
+	Parameter Types: [int, int]
+	Modifiers: private
+	Return Type: int
+	Exceptions: []
+ Name: substring
+	Parameter Types: [int]
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: substring
+	Parameter Types: [int, int]
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: subSequence
+	Parameter Types: [int, int]
+	Modifiers: public
+	Return Type: interface java.lang.CharSequence
+	Exceptions: []
+ Name: concat
+	Parameter Types: [class java.lang.String]
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: replace
+	Parameter Types: [char, char]
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: replace
+	Parameter Types: [interface java.lang.CharSequence, interface java.lang.CharSequence]
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: matches
+	Parameter Types: [class java.lang.String]
+	Modifiers: public
+	Return Type: boolean
+	Exceptions: []
+ Name: contains
+	Parameter Types: [interface java.lang.CharSequence]
+	Modifiers: public
+	Return Type: boolean
+	Exceptions: []
+ Name: replaceFirst
+	Parameter Types: [class java.lang.String, class java.lang.String]
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: replaceAll
+	Parameter Types: [class java.lang.String, class java.lang.String]
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: split
+	Parameter Types: [class java.lang.String, int]
+	Modifiers: public
+	Return Type: class [Ljava.lang.String;
+	Exceptions: []
+ Name: split
+	Parameter Types: [class java.lang.String]
+	Modifiers: public
+	Return Type: class [Ljava.lang.String;
+	Exceptions: []
+ Name: join
+	Parameter Types: [interface java.lang.CharSequence, class [Ljava.lang.CharSequence;]
+	Modifiers: public static transient
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: join
+	Parameter Types: [interface java.lang.CharSequence, interface java.lang.Iterable]
+	Modifiers: public static
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: toLowerCase
+	Parameter Types: [class java.util.Locale]
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: toLowerCase
+	Parameter Types: []
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: toUpperCase
+	Parameter Types: []
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: toUpperCase
+	Parameter Types: [class java.util.Locale]
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: trim
+	Parameter Types: []
+	Modifiers: public
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: toCharArray
+	Parameter Types: []
+	Modifiers: public
+	Return Type: class [C
+	Exceptions: []
+ Name: format
+	Parameter Types: [class java.util.Locale, class java.lang.String, class [Ljava.lang.Object;]
+	Modifiers: public static transient
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: format
+	Parameter Types: [class java.lang.String, class [Ljava.lang.Object;]
+	Modifiers: public static transient
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: copyValueOf
+	Parameter Types: [class [C, int, int]
+	Modifiers: public static
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: copyValueOf
+	Parameter Types: [class [C]
+	Modifiers: public static
+	Return Type: class java.lang.String
+	Exceptions: []
+ Name: intern
+	Parameter Types: []
+	Modifiers: public native
+	Return Type: class java.lang.String
+	Exceptions: []
+Fields: 
+ Name: value
+	Type: class [C
+	Modifiers: private final
+	Array Type: char
+	Array Length: 11
+	Array Value: T
+	Name: [C
+	Super Class: java.lang.Object
+		Name: java.lang.Object
+		Interface: None
+		Constructors: 
+		 Name: java.lang.Object
+			Parameter Types: []
+			Modifiers: public
+		Methods: 
+		 Name: finalize
+			Parameter Types: []
+			Modifiers: protected
+			Return Type: void
+			Exceptions: [class java.lang.Throwable]
+		 Name: wait
+			Parameter Types: [long, int]
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: [long]
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: []
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: equals
+			Parameter Types: [class java.lang.Object]
+			Modifiers: public
+			Return Type: boolean
+			Exceptions: []
+		 Name: toString
+			Parameter Types: []
+			Modifiers: public
+			Return Type: class java.lang.String
+			Exceptions: []
+		 Name: hashCode
+			Parameter Types: []
+			Modifiers: public native
+			Return Type: int
+			Exceptions: []
+		 Name: getClass
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: class java.lang.Class
+			Exceptions: []
+		 Name: clone
+			Parameter Types: []
+			Modifiers: protected native
+			Return Type: class java.lang.Object
+			Exceptions: [class java.lang.CloneNotSupportedException]
+		 Name: registerNatives
+			Parameter Types: []
+			Modifiers: private static native
+			Return Type: void
+			Exceptions: []
+		 Name: notify
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		 Name: notifyAll
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		Fields: 
+	Interface: java.lang.Cloneable
+		Name: java.lang.Cloneable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Interface: java.io.Serializable
+		Name: java.io.Serializable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Constructors: 
+	Methods: 
+	Fields: 
+	Array Value: e
+	Name: [C
+	Super Class: java.lang.Object
+		Name: java.lang.Object
+		Interface: None
+		Constructors: 
+		 Name: java.lang.Object
+			Parameter Types: []
+			Modifiers: public
+		Methods: 
+		 Name: finalize
+			Parameter Types: []
+			Modifiers: protected
+			Return Type: void
+			Exceptions: [class java.lang.Throwable]
+		 Name: wait
+			Parameter Types: [long, int]
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: [long]
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: []
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: equals
+			Parameter Types: [class java.lang.Object]
+			Modifiers: public
+			Return Type: boolean
+			Exceptions: []
+		 Name: toString
+			Parameter Types: []
+			Modifiers: public
+			Return Type: class java.lang.String
+			Exceptions: []
+		 Name: hashCode
+			Parameter Types: []
+			Modifiers: public native
+			Return Type: int
+			Exceptions: []
+		 Name: getClass
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: class java.lang.Class
+			Exceptions: []
+		 Name: clone
+			Parameter Types: []
+			Modifiers: protected native
+			Return Type: class java.lang.Object
+			Exceptions: [class java.lang.CloneNotSupportedException]
+		 Name: registerNatives
+			Parameter Types: []
+			Modifiers: private static native
+			Return Type: void
+			Exceptions: []
+		 Name: notify
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		 Name: notifyAll
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		Fields: 
+	Interface: java.lang.Cloneable
+		Name: java.lang.Cloneable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Interface: java.io.Serializable
+		Name: java.io.Serializable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Constructors: 
+	Methods: 
+	Fields: 
+	Array Value: s
+	Name: [C
+	Super Class: java.lang.Object
+		Name: java.lang.Object
+		Interface: None
+		Constructors: 
+		 Name: java.lang.Object
+			Parameter Types: []
+			Modifiers: public
+		Methods: 
+		 Name: finalize
+			Parameter Types: []
+			Modifiers: protected
+			Return Type: void
+			Exceptions: [class java.lang.Throwable]
+		 Name: wait
+			Parameter Types: [long, int]
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: [long]
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: []
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: equals
+			Parameter Types: [class java.lang.Object]
+			Modifiers: public
+			Return Type: boolean
+			Exceptions: []
+		 Name: toString
+			Parameter Types: []
+			Modifiers: public
+			Return Type: class java.lang.String
+			Exceptions: []
+		 Name: hashCode
+			Parameter Types: []
+			Modifiers: public native
+			Return Type: int
+			Exceptions: []
+		 Name: getClass
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: class java.lang.Class
+			Exceptions: []
+		 Name: clone
+			Parameter Types: []
+			Modifiers: protected native
+			Return Type: class java.lang.Object
+			Exceptions: [class java.lang.CloneNotSupportedException]
+		 Name: registerNatives
+			Parameter Types: []
+			Modifiers: private static native
+			Return Type: void
+			Exceptions: []
+		 Name: notify
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		 Name: notifyAll
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		Fields: 
+	Interface: java.lang.Cloneable
+		Name: java.lang.Cloneable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Interface: java.io.Serializable
+		Name: java.io.Serializable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Constructors: 
+	Methods: 
+	Fields: 
+	Array Value: t
+	Name: [C
+	Super Class: java.lang.Object
+		Name: java.lang.Object
+		Interface: None
+		Constructors: 
+		 Name: java.lang.Object
+			Parameter Types: []
+			Modifiers: public
+		Methods: 
+		 Name: finalize
+			Parameter Types: []
+			Modifiers: protected
+			Return Type: void
+			Exceptions: [class java.lang.Throwable]
+		 Name: wait
+			Parameter Types: [long, int]
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: [long]
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: []
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: equals
+			Parameter Types: [class java.lang.Object]
+			Modifiers: public
+			Return Type: boolean
+			Exceptions: []
+		 Name: toString
+			Parameter Types: []
+			Modifiers: public
+			Return Type: class java.lang.String
+			Exceptions: []
+		 Name: hashCode
+			Parameter Types: []
+			Modifiers: public native
+			Return Type: int
+			Exceptions: []
+		 Name: getClass
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: class java.lang.Class
+			Exceptions: []
+		 Name: clone
+			Parameter Types: []
+			Modifiers: protected native
+			Return Type: class java.lang.Object
+			Exceptions: [class java.lang.CloneNotSupportedException]
+		 Name: registerNatives
+			Parameter Types: []
+			Modifiers: private static native
+			Return Type: void
+			Exceptions: []
+		 Name: notify
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		 Name: notifyAll
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		Fields: 
+	Interface: java.lang.Cloneable
+		Name: java.lang.Cloneable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Interface: java.io.Serializable
+		Name: java.io.Serializable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Constructors: 
+	Methods: 
+	Fields: 
+	Array Value:  
+	Name: [C
+	Super Class: java.lang.Object
+		Name: java.lang.Object
+		Interface: None
+		Constructors: 
+		 Name: java.lang.Object
+			Parameter Types: []
+			Modifiers: public
+		Methods: 
+		 Name: finalize
+			Parameter Types: []
+			Modifiers: protected
+			Return Type: void
+			Exceptions: [class java.lang.Throwable]
+		 Name: wait
+			Parameter Types: [long, int]
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: [long]
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: []
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: equals
+			Parameter Types: [class java.lang.Object]
+			Modifiers: public
+			Return Type: boolean
+			Exceptions: []
+		 Name: toString
+			Parameter Types: []
+			Modifiers: public
+			Return Type: class java.lang.String
+			Exceptions: []
+		 Name: hashCode
+			Parameter Types: []
+			Modifiers: public native
+			Return Type: int
+			Exceptions: []
+		 Name: getClass
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: class java.lang.Class
+			Exceptions: []
+		 Name: clone
+			Parameter Types: []
+			Modifiers: protected native
+			Return Type: class java.lang.Object
+			Exceptions: [class java.lang.CloneNotSupportedException]
+		 Name: registerNatives
+			Parameter Types: []
+			Modifiers: private static native
+			Return Type: void
+			Exceptions: []
+		 Name: notify
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		 Name: notifyAll
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		Fields: 
+	Interface: java.lang.Cloneable
+		Name: java.lang.Cloneable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Interface: java.io.Serializable
+		Name: java.io.Serializable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Constructors: 
+	Methods: 
+	Fields: 
+	Array Value: S
+	Name: [C
+	Super Class: java.lang.Object
+		Name: java.lang.Object
+		Interface: None
+		Constructors: 
+		 Name: java.lang.Object
+			Parameter Types: []
+			Modifiers: public
+		Methods: 
+		 Name: finalize
+			Parameter Types: []
+			Modifiers: protected
+			Return Type: void
+			Exceptions: [class java.lang.Throwable]
+		 Name: wait
+			Parameter Types: [long, int]
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: [long]
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: []
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: equals
+			Parameter Types: [class java.lang.Object]
+			Modifiers: public
+			Return Type: boolean
+			Exceptions: []
+		 Name: toString
+			Parameter Types: []
+			Modifiers: public
+			Return Type: class java.lang.String
+			Exceptions: []
+		 Name: hashCode
+			Parameter Types: []
+			Modifiers: public native
+			Return Type: int
+			Exceptions: []
+		 Name: getClass
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: class java.lang.Class
+			Exceptions: []
+		 Name: clone
+			Parameter Types: []
+			Modifiers: protected native
+			Return Type: class java.lang.Object
+			Exceptions: [class java.lang.CloneNotSupportedException]
+		 Name: registerNatives
+			Parameter Types: []
+			Modifiers: private static native
+			Return Type: void
+			Exceptions: []
+		 Name: notify
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		 Name: notifyAll
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		Fields: 
+	Interface: java.lang.Cloneable
+		Name: java.lang.Cloneable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Interface: java.io.Serializable
+		Name: java.io.Serializable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Constructors: 
+	Methods: 
+	Fields: 
+	Array Value: t
+	Name: [C
+	Super Class: java.lang.Object
+		Name: java.lang.Object
+		Interface: None
+		Constructors: 
+		 Name: java.lang.Object
+			Parameter Types: []
+			Modifiers: public
+		Methods: 
+		 Name: finalize
+			Parameter Types: []
+			Modifiers: protected
+			Return Type: void
+			Exceptions: [class java.lang.Throwable]
+		 Name: wait
+			Parameter Types: [long, int]
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: [long]
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: []
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: equals
+			Parameter Types: [class java.lang.Object]
+			Modifiers: public
+			Return Type: boolean
+			Exceptions: []
+		 Name: toString
+			Parameter Types: []
+			Modifiers: public
+			Return Type: class java.lang.String
+			Exceptions: []
+		 Name: hashCode
+			Parameter Types: []
+			Modifiers: public native
+			Return Type: int
+			Exceptions: []
+		 Name: getClass
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: class java.lang.Class
+			Exceptions: []
+		 Name: clone
+			Parameter Types: []
+			Modifiers: protected native
+			Return Type: class java.lang.Object
+			Exceptions: [class java.lang.CloneNotSupportedException]
+		 Name: registerNatives
+			Parameter Types: []
+			Modifiers: private static native
+			Return Type: void
+			Exceptions: []
+		 Name: notify
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		 Name: notifyAll
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		Fields: 
+	Interface: java.lang.Cloneable
+		Name: java.lang.Cloneable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Interface: java.io.Serializable
+		Name: java.io.Serializable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Constructors: 
+	Methods: 
+	Fields: 
+	Array Value: r
+	Name: [C
+	Super Class: java.lang.Object
+		Name: java.lang.Object
+		Interface: None
+		Constructors: 
+		 Name: java.lang.Object
+			Parameter Types: []
+			Modifiers: public
+		Methods: 
+		 Name: finalize
+			Parameter Types: []
+			Modifiers: protected
+			Return Type: void
+			Exceptions: [class java.lang.Throwable]
+		 Name: wait
+			Parameter Types: [long, int]
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: [long]
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: []
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: equals
+			Parameter Types: [class java.lang.Object]
+			Modifiers: public
+			Return Type: boolean
+			Exceptions: []
+		 Name: toString
+			Parameter Types: []
+			Modifiers: public
+			Return Type: class java.lang.String
+			Exceptions: []
+		 Name: hashCode
+			Parameter Types: []
+			Modifiers: public native
+			Return Type: int
+			Exceptions: []
+		 Name: getClass
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: class java.lang.Class
+			Exceptions: []
+		 Name: clone
+			Parameter Types: []
+			Modifiers: protected native
+			Return Type: class java.lang.Object
+			Exceptions: [class java.lang.CloneNotSupportedException]
+		 Name: registerNatives
+			Parameter Types: []
+			Modifiers: private static native
+			Return Type: void
+			Exceptions: []
+		 Name: notify
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		 Name: notifyAll
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		Fields: 
+	Interface: java.lang.Cloneable
+		Name: java.lang.Cloneable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Interface: java.io.Serializable
+		Name: java.io.Serializable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Constructors: 
+	Methods: 
+	Fields: 
+	Array Value: i
+	Name: [C
+	Super Class: java.lang.Object
+		Name: java.lang.Object
+		Interface: None
+		Constructors: 
+		 Name: java.lang.Object
+			Parameter Types: []
+			Modifiers: public
+		Methods: 
+		 Name: finalize
+			Parameter Types: []
+			Modifiers: protected
+			Return Type: void
+			Exceptions: [class java.lang.Throwable]
+		 Name: wait
+			Parameter Types: [long, int]
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: [long]
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: []
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: equals
+			Parameter Types: [class java.lang.Object]
+			Modifiers: public
+			Return Type: boolean
+			Exceptions: []
+		 Name: toString
+			Parameter Types: []
+			Modifiers: public
+			Return Type: class java.lang.String
+			Exceptions: []
+		 Name: hashCode
+			Parameter Types: []
+			Modifiers: public native
+			Return Type: int
+			Exceptions: []
+		 Name: getClass
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: class java.lang.Class
+			Exceptions: []
+		 Name: clone
+			Parameter Types: []
+			Modifiers: protected native
+			Return Type: class java.lang.Object
+			Exceptions: [class java.lang.CloneNotSupportedException]
+		 Name: registerNatives
+			Parameter Types: []
+			Modifiers: private static native
+			Return Type: void
+			Exceptions: []
+		 Name: notify
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		 Name: notifyAll
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		Fields: 
+	Interface: java.lang.Cloneable
+		Name: java.lang.Cloneable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Interface: java.io.Serializable
+		Name: java.io.Serializable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Constructors: 
+	Methods: 
+	Fields: 
+	Array Value: n
+	Name: [C
+	Super Class: java.lang.Object
+		Name: java.lang.Object
+		Interface: None
+		Constructors: 
+		 Name: java.lang.Object
+			Parameter Types: []
+			Modifiers: public
+		Methods: 
+		 Name: finalize
+			Parameter Types: []
+			Modifiers: protected
+			Return Type: void
+			Exceptions: [class java.lang.Throwable]
+		 Name: wait
+			Parameter Types: [long, int]
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: [long]
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: []
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: equals
+			Parameter Types: [class java.lang.Object]
+			Modifiers: public
+			Return Type: boolean
+			Exceptions: []
+		 Name: toString
+			Parameter Types: []
+			Modifiers: public
+			Return Type: class java.lang.String
+			Exceptions: []
+		 Name: hashCode
+			Parameter Types: []
+			Modifiers: public native
+			Return Type: int
+			Exceptions: []
+		 Name: getClass
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: class java.lang.Class
+			Exceptions: []
+		 Name: clone
+			Parameter Types: []
+			Modifiers: protected native
+			Return Type: class java.lang.Object
+			Exceptions: [class java.lang.CloneNotSupportedException]
+		 Name: registerNatives
+			Parameter Types: []
+			Modifiers: private static native
+			Return Type: void
+			Exceptions: []
+		 Name: notify
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		 Name: notifyAll
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		Fields: 
+	Interface: java.lang.Cloneable
+		Name: java.lang.Cloneable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Interface: java.io.Serializable
+		Name: java.io.Serializable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Constructors: 
+	Methods: 
+	Fields: 
+	Array Value: g
+	Name: [C
+	Super Class: java.lang.Object
+		Name: java.lang.Object
+		Interface: None
+		Constructors: 
+		 Name: java.lang.Object
+			Parameter Types: []
+			Modifiers: public
+		Methods: 
+		 Name: finalize
+			Parameter Types: []
+			Modifiers: protected
+			Return Type: void
+			Exceptions: [class java.lang.Throwable]
+		 Name: wait
+			Parameter Types: [long, int]
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: [long]
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: []
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: equals
+			Parameter Types: [class java.lang.Object]
+			Modifiers: public
+			Return Type: boolean
+			Exceptions: []
+		 Name: toString
+			Parameter Types: []
+			Modifiers: public
+			Return Type: class java.lang.String
+			Exceptions: []
+		 Name: hashCode
+			Parameter Types: []
+			Modifiers: public native
+			Return Type: int
+			Exceptions: []
+		 Name: getClass
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: class java.lang.Class
+			Exceptions: []
+		 Name: clone
+			Parameter Types: []
+			Modifiers: protected native
+			Return Type: class java.lang.Object
+			Exceptions: [class java.lang.CloneNotSupportedException]
+		 Name: registerNatives
+			Parameter Types: []
+			Modifiers: private static native
+			Return Type: void
+			Exceptions: []
+		 Name: notify
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		 Name: notifyAll
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		Fields: 
+	Interface: java.lang.Cloneable
+		Name: java.lang.Cloneable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Interface: java.io.Serializable
+		Name: java.io.Serializable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Constructors: 
+	Methods: 
+	Fields: 
+ Name: hash
+	Type: int
+	Modifiers: private
+	Value: 0
+ Name: serialVersionUID
+	Type: long
+	Modifiers: private static final
+	Value: -6849794470754667710
+ Name: serialPersistentFields
+	Type: class [Ljava.io.ObjectStreamField;
+	Modifiers: private static final
+	Array Type: class java.io.ObjectStreamField
+	Array Length: 0
+ Name: CASE_INSENSITIVE_ORDER
+	Type: interface java.util.Comparator
+	Modifiers: public static final
+	Name: java.lang.String$CaseInsensitiveComparator
+	Super Class: java.lang.Object
+		Name: java.lang.Object
+		Interface: None
+		Constructors: 
+		 Name: java.lang.Object
+			Parameter Types: []
+			Modifiers: public
+		Methods: 
+		 Name: finalize
+			Parameter Types: []
+			Modifiers: protected
+			Return Type: void
+			Exceptions: [class java.lang.Throwable]
+		 Name: wait
+			Parameter Types: [long, int]
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: [long]
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: wait
+			Parameter Types: []
+			Modifiers: public final
+			Return Type: void
+			Exceptions: [class java.lang.InterruptedException]
+		 Name: equals
+			Parameter Types: [class java.lang.Object]
+			Modifiers: public
+			Return Type: boolean
+			Exceptions: []
+		 Name: toString
+			Parameter Types: []
+			Modifiers: public
+			Return Type: class java.lang.String
+			Exceptions: []
+		 Name: hashCode
+			Parameter Types: []
+			Modifiers: public native
+			Return Type: int
+			Exceptions: []
+		 Name: getClass
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: class java.lang.Class
+			Exceptions: []
+		 Name: clone
+			Parameter Types: []
+			Modifiers: protected native
+			Return Type: class java.lang.Object
+			Exceptions: [class java.lang.CloneNotSupportedException]
+		 Name: registerNatives
+			Parameter Types: []
+			Modifiers: private static native
+			Return Type: void
+			Exceptions: []
+		 Name: notify
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		 Name: notifyAll
+			Parameter Types: []
+			Modifiers: public final native
+			Return Type: void
+			Exceptions: []
+		Fields: 
+	Interface: java.util.Comparator
+		Name: java.util.Comparator
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Interface: java.io.Serializable
+		Name: java.io.Serializable
+		Super Class: None
+		Interface: None
+		Constructors: None
+		Methods: None
+		Fields: None
+	Constructors: 
+	Methods: 
+	 Name: compare
+		Parameter Types: [class java.lang.Object, class java.lang.Object]
+		Modifiers: public volatile
+		Return Type: int
+		Exceptions: []
+	 Name: compare
+		Parameter Types: [class java.lang.String, class java.lang.String]
+		Modifiers: public
+		Return Type: int
+		Exceptions: []
+	 Name: readResolve
+		Parameter Types: []
+		Modifiers: private
+		Return Type: class java.lang.Object
+		Exceptions: []
+	Fields: 
+	 Name: serialVersionUID
+		Type: long
+		Modifiers: private static final
+		Value: 8575799808933029326
 ======================================================
