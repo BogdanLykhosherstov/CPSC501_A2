@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94ee8392-105b-438e-bde3-10853349db0d" name="Default Changelist" comment="Finished 1-4 (of 6) requirements of A2. Added unit test for inspector to make sure it works.">
+    <list default="true" id="94ee8392-105b-438e-bde3-10853349db0d" name="Default Changelist" comment="Finished 1-6. Refactoring(Extract method inspectArray and inspectReference) and unit testing left.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script2.txt" afterDir="false" />
@@ -11,8 +11,8 @@
       <change beforePath="$PROJECT_DIR$/script6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script6.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script7.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inspector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inspector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests">
+  <component name="RunManager" selected="Application.Driver">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="A2" />
@@ -121,10 +121,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Driver" />
         <item itemvalue="JUnit.Tests" />
         <item itemvalue="JUnit.Tests.Get_ConstructorInfo" />
         <item itemvalue="JUnit.Tests.Get_Interface" />
-        <item itemvalue="Application.Driver" />
         <item itemvalue="JUnit.Tests.Get_SuperClass" />
       </list>
     </recent_temporary>
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571870347393</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented recursive support for 1-4 (of 6) requirements. Added unit tests for 1-4. &#10;TODO (Refactor format printing for 4)">
+      <created>1571878142387</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571878142388</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +171,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Finished 1-4 (of 6) requirements of A2. Added unit test for inspector to make sure it works." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished 1-4 (of 6) requirements of A2. Added unit test for inspector to make sure it works." />
+    <MESSAGE value="Implemented recursive support for 1-4 (of 6) requirements. Added unit tests for 1-4. &#10;TODO (Refactor format printing for 4)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented recursive support for 1-4 (of 6) requirements. Added unit tests for 1-4. &#10;TODO (Refactor format printing for 4)" />
   </component>
 </project>
